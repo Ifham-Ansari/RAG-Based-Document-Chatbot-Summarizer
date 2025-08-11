@@ -15,10 +15,10 @@ from pymongo import MongoClient
 from datetime import datetime
 
 app = Flask(__name__)
-app.secret_key = "your_secret_key"  # Use a strong secret key in production
+app.secret_key = "41bc7eeca4f560c2213c044633d7911e"  # Use a strong secret key in production
 
 # Database setup
-MONGO_URI = "mongodb+srv://your_name:password@cluster0.uqpxkcl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://ifhamansari:maa55208@cluster0.uqpxkcl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(MONGO_URI)
 db = client["legal_summarizer"]
 collection = db["documents"]
@@ -390,3 +390,4 @@ def chat_history(chat_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
