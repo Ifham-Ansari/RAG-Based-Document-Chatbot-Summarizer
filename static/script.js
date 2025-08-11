@@ -688,9 +688,10 @@ dropArea.addEventListener('drop', (e) => {
         document.getElementById('fileName').textContent = `📄 ${fileInput.files[0].name}`;
     }
 });
-z
+
 fileInput.addEventListener('change', () => {
     if (fileInput.files.length) {
         document.getElementById('fileName').textContent = `📄 ${fileInput.files[0].name}`;
     }
 });
+
