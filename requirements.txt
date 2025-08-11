@@ -5,6 +5,7 @@ openai
 chromadb
 docx2txt
 PyPDF2
+pypdf
 python-docx
 pandas
 langchain_community
@@ -13,3 +14,4 @@ flask-bcrypt
 pymongo
 python-dotenv
 gunicorn
+
