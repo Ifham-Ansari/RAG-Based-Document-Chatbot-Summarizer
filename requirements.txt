@@ -14,4 +14,7 @@ flask-bcrypt
 pymongo
 python-dotenv
 gunicorn
+tiktoken
+
+
 
